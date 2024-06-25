@@ -4,7 +4,7 @@ import time
 
 RUNNING = True
 InputPassWord = hashlib.sha256((input('\nPassword required :\n → ')).encode('utf-8')).hexdigest()
-PassWord = ''
+PassWord = '' #rentrez votre mdp haché ici avant de lancer le script
 
 while RUNNING :
     if InputPassWord == PassWord :
